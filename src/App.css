@@ -1,0 +1,45 @@
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.block{
+  padding: 5px;
+  margin: 10px 0;
+  border-radius: 5px;
+
+  border: 2px #131313 solid;
+
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
+
+.block:hover{
+  background: #e4e4e4;
+}
+
+.text{
+  margin-bottom:5px;
+
+  font-size: 16px;
+}
+
+.text:last-child{
+  margin: 0;
+}
+
+.btn{
+  padding: 10px;
+  background: none;
+
+  margin-bottom: 50px;
+  transition: box-shadow 0.2s ease;
+}
+
+.btn:hover{
+  box-shadow: #131313 2px 2px 2px ;
+}
+
+.btn:first-child{
+  margin-right: 20px;
+}
